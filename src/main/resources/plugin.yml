@@ -1,0 +1,8 @@
+name: CoinPlugin
+version: ${project.version}
+main: de.notmirow.CoinPlugin
+api-version: 1.16
+authors: [notMirow]
+
+commands:
+  coins:

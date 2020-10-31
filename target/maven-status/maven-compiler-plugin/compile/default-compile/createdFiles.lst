@@ -1,0 +1,5 @@
+de\notmirow\listeners\JoinListener.class
+de\notmirow\api\CoinAPI.class
+de\notmirow\mysql\MySQL.class
+de\notmirow\CoinPlugin.class
+de\notmirow\commands\CoinCommand.class
