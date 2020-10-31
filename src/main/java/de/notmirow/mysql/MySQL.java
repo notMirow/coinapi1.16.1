@@ -1,6 +1,7 @@
 package de.notmirow.mysql;
 
 import de.notmirow.CoinPlugin;
+import de.notmirow.utils.ConfigManager;
 import org.bukkit.Bukkit;
 
 import java.sql.*;
@@ -13,11 +14,13 @@ import java.sql.*;
  */
 public class MySQL {
 
-    public static String host = "";
-    public static String port = "3306";
-    public static String database = "CoinPlugin";
-    public static String username = "root";
-    public static String password = "secret";
+    public static ConfigManager configManager = CoinPlugin.getInstance().getConfigManager();
+
+    public static String host = configManager.getHost();
+    public static String port = configManager.getPort();
+    public static String database = configManager.getDatabase();
+    public static String username = configManager.getUser();
+    public static String password = configManager.getPassword();
 
     public static Connection con;
 

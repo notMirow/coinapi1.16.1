@@ -1,0 +1,7 @@
+#MySQl Config.yml
+
+host: ""
+port: "3306"
+database: "coinapi"
+user: "root"
+password: "secret"
