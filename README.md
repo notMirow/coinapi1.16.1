@@ -1,15 +1,25 @@
 # coinapi1.16.1
 
 Your Server need to have 1.16.1 Spigot and you can put ViaVersion on it so you can Join with other Versions (1.16+)
-You need to edit the MySQL.java in the Source maybe i will do a config.yml
+plugins/CoinPlugin/config.yml when your start the plugin the file gonna be created if its not create a file:
+plugins/CoinPlugin/config.yml and put in there:
+
+#MySQl Config.yml
+
+host: ""
+port: "3306"
+database: "coinapi"
+user: "root"
+password: "secret"
+
 
 Installation:
-Download the .zip
-Import in IntelliJ Idea
-Go to: scr/main/java/de.notmirow/mysql/MySQl.java
-Then Put your login thinks of your MySQL
-Put in your Plugins Folder have fun!
-And dont forgot: Import in your Project!
+Go to target folder and download CoinAPI-1.0-SNAPSHOT.jar.
+Put in Your plugin folder and start your server
+after it starts Stop it go to /plugins/CoinPlugin/config.yml
+Put your MySQL login things if the file isnt there make what i say on
+line 3
+Then have fun:
 
 Permission:
 /coins [no permission]
